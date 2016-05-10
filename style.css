@@ -1,0 +1,161 @@
+@CHARSET "ISO-8859-1";
+
+body{	
+	background: #aaffff;
+	margin:0px;
+}
+
+.top_tab{
+	background-color:  #2F4F4F;
+	position:absolute;
+	width:100%;
+	height:10%;
+}
+
+.bottom_tab{
+	background-color:  #2F4F4F;
+	position:absolute;
+	width:100%;
+	height:5%;
+	bottom: 0px;
+}
+
+.logout{	
+	right: 5px;
+	position: fixed;
+	color: #2F4F4F;
+	background-color: #aaffff;
+	font-family: comic sans ms;
+}
+
+.welcome{
+	position:fixed;
+	right: 38%;
+	font-family: comic sans ms;
+	font-size: xx-large;
+	font-stretch: expanded;
+	color: #aaffff;
+}
+
+.login_title{
+	font-family: comic sans MS;
+	font-size: xx-large;
+	font-stretch: expanded;
+	color: #008080;
+}
+
+.register_title{
+	font-family: comic sans ms;
+	font-size: xx-large;
+	font-stretch: expanded;
+	color: #008080;
+}
+
+.logged_user{	
+	position: fixed;
+	top:10px;
+	left: 10px;
+    font-size: large;
+	font-family: comic sans ms;
+	font-stretch: wider;
+	color: #aaffff;
+}
+
+.chat_box,.msg_box{
+	cursor: pointer;
+	background:	#FFFFFF;
+	width:250px;
+	position:fixed;
+	bottom: 29px;
+	right: 10px;
+	border: 1px solid;
+}
+
+.chat_head{
+	background: #2F4F4F;
+	color:#aaffff;
+	padding: 10px;
+}
+
+.chat_body{
+	height: 400px;
+	overflow: auto;
+	overflow-x:hidden;
+}
+
+.user{
+	cursor: pointer;
+}
+
+.user:BEFORE {
+}
+
+.msg_box{
+	background: #FFFFFF;
+	width: 200px;
+	right: 280px;
+	bottom: 29px;
+}
+
+#msg_head{
+	background: #2F4F4F;
+	color: #aaffff;
+	padding: 10px;
+}
+
+.close{
+	float: right;
+	color: #aaffff;
+}
+
+.msg_body{
+	height: 250px;
+	font-family: monospace;
+	overflow: auto;
+	overflow-x:hidden;
+}
+
+.msg_from_A{
+	background: yellow;
+	margin-top: 5px;
+	padding:10px;
+	margin-left: 20px;
+	border-radius:5px;
+}
+
+.msg_from_B{
+	background: yellow;
+	margin-top: 5px;
+	padding:10px;
+	margin-right: 20px;
+	border-radius:5px;
+}
+
+.msg_footer{
+}
+
+.final_msg_footer{	
+}
+
+.input_msg{
+	 width: 100%; 
+	 padding: 4px;
+	 border: transparent;
+	 border-top: 2px solid;
+	 -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.send{	
+	font:monospace;
+	cursor: pointer;
+	padding-bottom:5px;
+	bottom: 25px;
+	right: 280px;
+	position:fixed;
+}
+
+.button:HOVER{
+	color: red;
+}
